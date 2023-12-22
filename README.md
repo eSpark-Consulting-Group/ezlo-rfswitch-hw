@@ -6,8 +6,8 @@ This product will be part of Ezlo Low Power RF Devices Initiative that will focu
 - Develop a hardware that can work in a battery powered environment and has the following features:
     - EzloPi capable using EzloPi ESP32
     - Contains an RF tranceiver that can cover multiple frequencies as configured. CC1101 based module can be reused here from IR-RF Blaster product
-    - The trigger from door and window sensor should fall on a EXT pin on ESP32
+    - The trigger from door and window sensor should fall on a EXTI pin on ESP32
     - The latch circuit for Wake up / Power Up designed in IR-RF blaster should be added
-    - The ESP32 should be able to wake up from both sensor trigger as well as RF signal
+    - Studying of OEM devices teardowns is important because we plan to let OEMs use our product and integrate it into their door sensor by simply removing the existing chipset.
     - The overall size and cost should be kept as low as possible
 
